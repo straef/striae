@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F4:STM32F411CEUx U?
+U 1 1 60CC3014
+P 1250 6150
+F 0 "U?" H 1200 7831 50  0000 C CNN
+F 1 "STM32F411CEUx" H 1200 7740 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 650 4650 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115249.pdf" H 1250 6150 50  0001 C CNN
+	1    1250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K??
+U 1 1 60CD9B70
+P 950 900
+F 0 "K??" H 950 1133 60  0000 C CNN
+F 1 "KEYSW" H 950 800 60  0001 C CNN
+F 2 "" H 950 900 60  0000 C CNN
+F 3 "" H 950 900 60  0000 C CNN
+	1    950  900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60CDB470
+P 1750 900
+F 0 "K?" H 1750 1133 60  0000 C CNN
+F 1 "KEYSW" H 1750 800 60  0001 C CNN
+F 2 "" H 1750 900 60  0000 C CNN
+F 3 "" H 1750 900 60  0000 C CNN
+	1    1750 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60CDB986
+P 2400 800
+F 0 "K?" H 2400 1033 60  0000 C CNN
+F 1 "KEYSW" H 2400 700 60  0001 C CNN
+F 2 "" H 2400 800 60  0000 C CNN
+F 3 "" H 2400 800 60  0000 C CNN
+	1    2400 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K?
+U 1 1 60CDBD57
+P 3050 850
+F 0 "K?" H 3050 1083 60  0000 C CNN
+F 1 "KEYSW" H 3050 750 60  0001 C CNN
+F 2 "" H 3050 850 60  0000 C CNN
+F 3 "" H 3050 850 60  0000 C CNN
+	1    3050 850 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
