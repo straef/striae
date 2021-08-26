@@ -1,7 +1,4 @@
 # Specify filepatterns you want git to ignore.
-kbfirmware-builder/**
-reference/**
-swillkb/**
-**.dxf
-**.stl
+code-reference/**
+build_case/swillkb/**
 **.FCStd1
