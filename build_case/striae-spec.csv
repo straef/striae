@@ -1,0 +1,10 @@
+switch	pcb	plate	form	case
+14	404.812	408.812	417.312	0.5						underline	arbitrary
+14	114.3	118.3	126.8	4						italic	externally fixed
+5	1.5	1.5	16							bold	calculated
+19.05	404.812	2	3
+	114.3	2.38125	6
+	1.5	0	4
+
+6
+21
