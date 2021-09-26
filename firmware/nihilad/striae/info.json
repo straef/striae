@@ -1,0 +1,19 @@
+{
+	"keyboard_name": "striae",
+	"maintainer": "stræf",
+
+	"usb": {
+		"vid": "0x0010",
+		"pid": "0x0110",
+		"device_ver": "0x0000"
+	},
+
+	"debounce": "",
+	"diode_direction": "",
+	"layout_aliases": "",
+	"layouts": "",
+	"matrix_pins": {
+		"cols": [],
+		"rows": [],
+	}
+}
