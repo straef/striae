@@ -5,21 +5,21 @@ a full-size plus ortholinear keyboard project designed for myself
 	_plural_ striae \ 'strī-,ē \
 	: a stripe or line distinguished from the surrounding area by color, texture, or elevation
 
-this project started just because i wanted a keyboard that suited me. i have always been confused by the offset on modern keyboards and confounded at its persistence after learning why it was done. additionally as i used traditional fullsize keyboards i was bothered by how far i had to move my right hand to go between the mouse and the home row. further frustrations arose from wanting to use the numpad and the mouse at the same time. i downsized to a tenkeyless keyboard and that ameliorated the distance problem somewhat, but added a new problem of wanting a numpad and not having one. i made an autohotkey script to be able to toggle my number row to send numpad inputs, but it is not the same.
+This project started just because I wanted a keyboard that suited me. I have always been confused by the offset on modern keyboards and confounded at its persistence after learning why it was done. Additionally, as I used traditional fullsize keyboards I was bothered by how far I had to move my right hand to go between the mouse and the home row. Further frustrations arose from wanting to use the numpad and the mouse at the same time. I downsized to a TKL keyboard and that ameliorated the distance problem somewhat, but added a new problem of wanting a numpad and not having one. I made an autohotkey script to be able to toggle my number row to send numpad inputs, but it is not the same.
 
-**all this means i knew i wanted**:
+**so, I knew I wanted**:
 - a numpad, but not on the right
-	- might as well move the nav cluster (arrows, page up, page down, home, end, insert, delete) while i am at it
+	- might as well move the nav cluster (arrows, page up, page down, home, end, insert, delete) while I am at it
 - ortholinear because _logic_
 	- probably not qwerty because _also logic_
 
-looking around for something that suited me had me coming up short. the mechanical keyboard community is vast, varied, and beautiful; but most members are into smaller boards. and by far the most common differentiators on keyboards are switches and keycaps. which is great! i love a pretty board, but i also need something functional for me. that is how i define beauty.
+I started to look around for something that suited me but I ended up coming up short. The mechanical keyboard community is vast, varied, and beautiful; but most members are into smaller boards and by far the most common differentiators on keyboards are switches and keycaps. Which is great! I love a pretty board, but I also need something functional for me. That is how I define beauty.
 
-i started building a layout for myself on [keyboard-layout-editor](http://www.keyboard-layout-editor.com). while i was building that i started looking into arrangements other than qwerty, as well. after going through plenty of revisions i started researching how i was going to be able to do all this. that is how i found [quantum mechanical keyboard](https://github.com/qmk/qmk_firmware) firmware, or qmk for short. qmk seemed like it could do what i wanted, i just had to learn how to use it. at this point i began to give serious consideration to the actual production of the physical keyboard. i started looking for and testing out switches, picking materials. i needed to make some decisions about the case and i did not like having a simple sandwich board, with or without the middle layers. since everything else is from scratch i might as well learn a cad software and design my own case, so i did. during the process of doing all the design work, my brother who is an electrical engineer offered to make a pcb design so he could practice. seemed interesting to me so i took him up on it.
+I started building a layout for myself on [keyboard-layout-editor](http://www.keyboard-layout-editor.com). While I was building, I started looking into arrangements other than qwerty, as well. After going through plenty of revisions I started researching how I was going to be able to make the functionality I wanted possible. That is how I found [quantum mechanical keyboard](https://github.com/qmk/qmk_firmware) firmware, or QMK. QMK seemed like it could do what I wanted and I just had to learn how to use it. At this point I began to give serious consideration to the actual production of the physical keyboard. I started looking for and testing out switches, picking materials. I needed to make some decisions about the case and I did not like having a simple sandwich board, with or without the middle layers. Since everything else is from scratch I might as well learn a cad software and design my own case, so I did. During the process of doing all the design work my brother, an electrical engineer, offered to make a pcb design so he could practice. Seemed interesting to me so I took him up on it.
 
-after completing the designs and selecting the switches and keycaps, i went about having things made and purchasing components.
+After completing the designs and selecting the switches and keycaps, I went about having the PCB made and purchased the components.
 
-**suppliers i used and would recommend**:
+**suppliers I used and would recommend**:
 - [digikey](https://www.digikey.com): electrical and machine parts (bom available in folders)
 - [jlcpcb](https://jlcpcb.com): pcb manufacture
 - [bert rabbe](http://beraht.com/index.html): local woodworker to make the case frame
@@ -33,7 +33,7 @@ after completing the designs and selecting the switches and keycaps, i went abou
 - [keygem](https://keygem.store): switch sampler
 - [signature plastics](https://pimpmykeyboard.com): dsa 2u pos keycaps
 
-_i think that is all of them. if i remember or add any more i will be sure to list them here_
+_I think that is all of them. If I remember or add any more I will be sure to list them here_
 
 ## technical stuff
 this is ugly and a brain dump. will be cleaned up, maybe.
