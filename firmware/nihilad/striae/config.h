@@ -2,7 +2,7 @@
 
 #define VENDOR_ID				0x0010
 #define PRODUCT_ID				0x0110
-#define DEVICE_VER				0X0000
+#define DEVICE_VER				0x0000
 
 #define MANUFACTURER			hexRAVEN_labs
 #define PRODUCT					striae_r00

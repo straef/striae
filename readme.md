@@ -2,8 +2,8 @@
 a full-size plus ortholinear keyboard project designed for myself
 
 ### stria (noun): \ 'strī-ə \
-	_plural_ striae \ 'strī-,ē \
-	: a stripe or line distinguished from the surrounding area by color, texture, or elevation
+_plural_ striae \ 'strī-,ē \
+: a stripe or line distinguished from the surrounding area by color, texture, or elevation
 
 this project started just because i wanted a keyboard that suited me. i have always been confused by the offset on modern keyboards and confounded at its persistence after learning why it was done. additionally as i used traditional fullsize keyboards i was bothered by how far i had to move my right hand to go between the mouse and the home row. further frustrations arose from wanting to use the numpad and the mouse at the same time. i downsized to a tenkeyless keyboard and that ameliorated the distance problem somewhat, but added a new problem of wanting a numpad and not having one. i made an autohotkey script to be able to toggle my number row to send numpad inputs, but it is not the same.
 
@@ -37,8 +37,13 @@ _i think that is all of them. if i remember or add any more i will be sure to li
 
 ## technical stuff
 this is ugly and a brain dump. will be cleaned up, maybe.
-qmk firmware, vial integration
+qmk firmware, ~~vial integration~~
 119 keys, full size keyboard plus. split out some 2u keys on the numpad, split spacebar, added two columns between the hands. see ideal keyboard layout file for kle data.
 matrix is 12rows × 10 columns. the nav cluster is a single column in the matrix, every other matrix column is made from two adjacent physical columns.
 2 is31fl3733 led drivers control per-key rgb leds.
 all components are surface mount, except the mcu which is intentionally distinct from the matrix pcb for modularity.
+
+vendorID: 0x0010
+	- why did i choose this? this is not otherwise registered (according to [device hunt](https://devicehunt.com)) but cannot remember the reason i selected this id to occupy.
+productID: 0x0110
+	- chose this because the double 1s look like lines which is the name of the board
