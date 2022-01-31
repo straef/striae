@@ -6,7 +6,7 @@ a full-size plus ortholinear keyboard project designed for myself
 	: a stripe or line distinguished from the surrounding area by color, texture, or elevation
 
 ## Contributors:
-(PandLantis)[https://github.com/PandLantis]
+[PandLantis](https://github.com/PandLantis)
 
 This project started just because I wanted a keyboard that suited me. I have always been confused by the offset on modern keyboards and confounded at its persistence after learning why it was done. Additionally, as I used traditional fullsize keyboards I was bothered by how far I had to move my right hand to go between the mouse and the home row. Further frustrations arose from wanting to use the numpad and the mouse at the same time. I downsized to a TKL keyboard and that ameliorated the distance problem somewhat, but added a new problem of wanting a numpad and not having one. I made an autohotkey script to be able to toggle my number row to send numpad inputs, but it is not the same.
 
