@@ -2,7 +2,7 @@
 a full-size plus ortholinear keyboard project designed for myself
 
 ### stria `(noun) \ 'strī-ə \`
-_plural_ `striae \ 'strī-,ē \`
+_plural_ `striae \ 'strī-,ē \` \
 : a stripe or line distinguished from the surrounding area by color, texture, or elevation
 
 ## Contributors
