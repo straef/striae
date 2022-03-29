@@ -1,3 +1,0 @@
-[submodule "firmware"]
-	path = firmware
-	url = https://github.com/straef/firmware
