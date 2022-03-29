@@ -3,9 +3,9 @@
 #define ____ KC_NO
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [0] = LAYOUT (
+    [0] = LAYOUT(
         KC_PSCR,    KC_PAUS,    KC_ESC,     KC_1,       KC_3,       KC_5,       KC_EQL,                 KC_7,       KC_9,       KC_BSLS,
-        ____,       KC_SCRL,    KC_CAPS,    KC_GRV,     KC_2,       KC_4,       KC_MINS,                KC_6,       KC_8,       KC_0,
+                    KC_SCRL,    KC_CAPS,    KC_GRV,     KC_2,       KC_4,       KC_MINS,                KC_6,       KC_8,       KC_0,
         KC_PMNS,    KC_PAST,    KC_DEL,     KC_Q,       KC_R,       KC_B,       KC_RBRC,                KC_F,       KC_P,       KC_SCLN,
         KC_NUM,     KC_PPLS,    KC_INS,     KC_TAB,     KC_D,       KC_W,       KC_LBRC,                KC_J,       KC_U,       KC_QUOT,
         KC_P7,      KC_P9,      KC_END,     KC_H,       KC_A,       KC_G,       RSFT_T(KC_RPRN),        KC_N,       KC_O,       KC_ENT,
