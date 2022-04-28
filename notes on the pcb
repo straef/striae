@@ -1,0 +1,79 @@
+notes on the pcb
+
+
+row:
+	 0		 a0
+	 1		 a1
+	 2		 a2
+	 3		 a3
+	 4		 a4
+	 5		 a5
+	 6		 a6
+	 7		 a7
+	 8		 a8
+	 9		 a9
+	10		a10
+	11		a11
+
+column:
+	 0		 b0
+	 1		 b1
+	 2		 b2
+	 3		 b3
+	 4		 b4
+	 5		 b5
+	 6		 b8
+	 7		 b9
+	 8		b10
+	 9		b12
+
+led:
+	vio		3v3
+	vbat	5v
+	sda		b7
+	scl		b6
+	sdb		b13
+	intb	b14
+	g		g
+
+ 1		1		vb	x	x
+ 2		2		c13		 col0
+ 3		3		c14		 col1
+ 4		4		c15		 col2
+ 5		7		r	x	x
+ 6		10		 a0		 col3
+ 7		11		 a1		 col4
+ 8		12		 a2		 col5
+ 9		13		 a3		 col6
+10		14		 a4		 col7
+11		15		 a5		 col8
+12		16		 a6		 col9
+13		17		 a7		 row0
+14		18		 b0		 row1
+15		19		 b1		 row2
+16		20		 b2	-	-	reserved
+17		21		b10
+18		24		3v3	x	x
+19		23		g	x	x
+20				5v	x	x
+
+21		25		b12		row3
+22		26		b13		row4
+23		27		b14		row5
+24		28		b15		row6
+25		29		 a8		row7
+26		30		 a9	-	-	reserved
+27		31		a10	-	-	reserved
+28		32		a11	-	-	reserved
+29		33		a12	-	-	reserved
+30		38		a15		row8
+31		39		 b3		row9
+32		40		 b4		row10
+33		41		 b5		row11
+34		42		 b6		sda
+35		43		 b7		scl
+36		45		 b8		sdb
+37		46		 b9		intb
+38				5v	x	x
+39		47		g	x	x
+40		48		3v3	x	x

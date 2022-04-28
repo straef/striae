@@ -1,10 +1,10 @@
-v3.6w
-[{fa:[0,0,1],x:1},"print screen","scroll lock","pause",{x:0.125},"caps lock",{x:1,n:true},"esc",{x:0.125},"`","1","2","3","4","5","-","=","6","7","8","9","0","\\"],
-["num lock","n-","n+","n×",{x:0.125},"ins","pgUP","del",{x:0.125},"tab","q","d","r","w","b","[","]","j","f","u","p","'",";"],
-["n÷","n7","n8","n9",{x:0.125},"home",{n:true},"pgDN","end",{x:0.125},"back space","h","s","a",{n:true},"t","g","lsft_t(","rsft_t)","y",{n:true},"n","e","o","i","enter"],
-["n=","n4",{n:true},"n5","n6",{x:3.25},"lshift","z","x","m","c","v","lctl_t<","rctl_t>","k","l",",",".","/","rshift"],
-["nEnter","n1","n2","n3",{x:1.125},"up",{x:1.125},"lctrl","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","rctrl"],
-["tab","back space","n.","n0",{x:0.125},"left",{n:true},"down","right",{x:0.125},"","","winc","lgui","lalt",{w:2},"",{w:2},"","ralt","rgui","app","",""]
+v3.7w
+[{fa:[0,0,1],x:1},"print screen","scroll lock","pause",{x:0.125},"caps lock",{x:1,n:true},"esc",{x:0.125},"","f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12",""],
+["num lock","n-","n+","n×",{x:0.125},"ins","pgUP","del",{x:0.125},"`","1","2","3","4","5","-","=","6","7","8","9","0","\\"],
+["n÷","n7","n8","n9",{x:0.125},"home",{n:true},"pgDN","end",{x:0.125},"tab","q","d","r","w","b","[","]","j","f","u","p","'",";"],
+["n=","n4",{n:true},"n5","n6",{x:3.25},"back space","h","s","a",{n:true},"t","g","lsft_t(","rsft_t)","y",{n:true},"n","e","o","i","enter"],
+["nEnter","n1","n2","n3",{x:1.125},"up",{x:1.125},"lshift","z","x","m","c","v","lctl_t<","rctl_t>","k","l",",",".","/","rshift"],
+["tab","back space","n.","n0",{x:0.125},"left",{n:true},"down","right",{x:0.125},"","lctrl","winc","lgui","lalt",{w:2},"",{w:2},"","ralt","rgui","app","rctrl",""]
 
 v3.4pins
 [{x:1},	"","","",{x:0.125},	"",	{x:1},"",	{x:0.125},"","","","","","","","","","","","","",""],
