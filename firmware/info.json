@@ -1,6 +1,31 @@
 {
+    "keyboard_name": "striae",
+    "url": "https://github.com/straef/striae",
+    "maintainer": "straef",
+
+/*    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "extrakey": false,
+        "mousekey": false,
+        "nkro": true
+    },*/
+
+/*    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["C13", "C14", "C15", "A0", "A1", "A2", "A3", "A4", "A5", "A6"],
+        "rows": ["A7", "B0", "B1", "B12", "B13", "B14", "B15", "A8", "A15", "B3", "B4", "B5"]
+    },*/
+
     "bootloader": "stm32-dfu",
     "processor": "STM32F411",
+
+    "usb": {
+        "vid": "0x0010",
+        "pid": "0x0110"
+    },
+
     "layouts": {
         "LAYOUT": {
             "layout": [

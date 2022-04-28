@@ -2,6 +2,7 @@ notes on the pcb
 
 
 row:
+<<<<<<< HEAD
 	 0		 a0
 	 1		 a1
 	 2		 a2
@@ -77,3 +78,38 @@ led:
 38				5v	x	x
 39		47		g	x	x
 40		48		3v3	x	x
+=======
+	0 a0
+	1 a1
+	2 a2
+	3 a3
+	4 a4
+	5 a5
+	6 a6
+	7 a7
+	8 a8
+	9 a9
+	10 a10
+	11 a11
+
+column:
+	0 b0
+	1 b1
+	2 b2
+	3 b3
+	4 b4
+	5 b5
+	6 b8
+	7 b9
+	8 b10
+	9 b12
+
+led:
+	vio 3v3
+	vbat 5v
+	sda b7
+	scl b6
+	sdb b13
+	intb b14
+	g g
+>>>>>>> keymap
