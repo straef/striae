@@ -10,14 +10,14 @@
 #define PRODUCT                 striae_r00
 #define DESCRIPTION             the striae r00 by hexRaven_labs is a fullsize plus ortholinear keyboard with a left-side numpad and nav cluster
 
-#define MATRIX_ROWS             12
 #define MATRIX_COLS             10
+#define MATRIX_ROWS             12
 
-//#define MATRIX_ROW_PINS         { A0, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11 }
-//#define MATRIX_COL_PINS         { B0, B1, B2, B3, B4, B5, B8, B9, B10, B12 }
-//#define UNUSED_PINS             {}
+#define MATRIX_COL_PINS         { C13, C14, C15, A0, A1, A2, A3, A4, A5, A6 }
+#define MATRIX_ROW_PINS         { A7, B0, B1, B12, B13, B14, B15, A8, A15, B3, B4, B5 }
+#define UNUSED_PINS             { B2, B10, A9, A10, A11, A12, B6, B7, B8, B9 }
 
-//#define DIODE_DIRECTION         COL2ROW
+#define DIODE_DIRECTION         COL2ROW
 
 /*
  * Feature disable options
